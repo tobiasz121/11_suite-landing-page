@@ -86,6 +86,18 @@ h3 {
     
 }
 
+.header-button:hover {    
+    background-color:#172339;
+      
+}
+
+.header-button:hover > a{    
+    color:#F2F2F2  
+}
+
+   
+
+
 
 /* central section */
 
@@ -124,13 +136,20 @@ h3 {
 
 .central-left-button {
     height:5.6rem;    
-    width:22rem;
+    width:25.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border:1px solid #172339;
     border-radius: 6px;
     background-color:#172339;
+    
+}
+
+.central-left-button:hover {        
+    border:none;    
+    background-color: rgba(160, 96, 255, 1);
+    background-image: linear-gradient(168deg, rgba(160, 96, 255, 1) 35%, rgba(203, 48, 227, 1) 48%, rgba(255, 168, 78, 1) 88%);
     
 }
 
