@@ -44,7 +44,8 @@ h2 {
     line-height: 5.8rem;
     letter-spacing: -0.5px;
     font-weight: 700;
-    color:#172339
+    color:#172339;
+    text-align: center;
 }
 
 h3 {
@@ -116,6 +117,10 @@ h3 {
     width:auto
 }
 
+.central > img:nth-of-type(2) {
+    display: none;
+}
+
 .central-left {
     max-width: 65rem;
     
@@ -163,6 +168,7 @@ h3 {
     font-size: 1.6rem;
     line-height: 2.6rem; 
     letter-spacing: 2.5px;
+    text-align: center;
 
 }
 
@@ -439,20 +445,58 @@ blockquote {
         align-items: center;
     }
 
-    .central > img {
-        position:static;        
-        display: inline-block;        
+    .central > img:first-of-type {
+       display: none;
+    }
+
+    .central > img:nth-of-type(2) {
+        display: inline-block;
+        position: static;     
         z-index: 0;
         height: auto;
-        width:100%;
+        width:100%
     }
 
     .footer {
-        top:200rem
+        top:165%;
+        height: 800px;       
     }
 
     .central-left-h1 {
         padding-top:0;
+    }
+
+    .central-left-button {
+        
+        margin-bottom:5rem
+        
+    }
+
+    .central-right {
+        flex-direction: column;
+        align-items: center;
+        bottom:-55%;
+    }
+
+    .central-right > div:nth-of-type(1n) {
+        padding:0;
+        margin: 0 0 2rem 0;        
+    }
+    
+
+    .footer-bar {
+        position: absolute;
+        bottom:27rem;
+        height:0;
+        width:100%;    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-bar > * {
+        margin:3rem 0 3rem 0;
     }
 
     
