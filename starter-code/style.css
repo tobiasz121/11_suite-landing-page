@@ -18,7 +18,7 @@ body {
 
 main {
     width:111rem;
-    height:100vh;
+    height:100%;
     margin:auto;
 }
 
@@ -458,7 +458,7 @@ blockquote {
     }
 
     .footer {
-        top:185%;
+        top:210%;
         height: 800px;       
     }
 
